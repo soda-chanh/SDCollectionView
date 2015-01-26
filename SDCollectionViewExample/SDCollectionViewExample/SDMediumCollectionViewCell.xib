@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SDMediumCollectionViewCell" id="LaX-in-cei" customClass="SDBaseCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="293"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="293"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="erI-kJ-OGn" userLabel="Icon View">
+                        <rect key="frame" x="3" y="3" width="314" height="290"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="purpleflowers" translatesAutoresizingMaskIntoConstraints="NO" id="Rdu-No-oG2">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="294"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eKd-ad-XPN">
+                                <rect key="frame" x="12" y="160" width="214" height="45"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Description" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0MU-Zt-0jd">
+                                <rect key="frame" x="12" y="218" width="294" height="76"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Rdu-No-oG2" firstAttribute="leading" secondItem="erI-kJ-OGn" secondAttribute="leading" id="FMr-RX-00Q"/>
+                            <constraint firstAttribute="bottom" secondItem="Rdu-No-oG2" secondAttribute="bottom" constant="-4" id="RaU-pj-5dw"/>
+                            <constraint firstAttribute="trailing" secondItem="Rdu-No-oG2" secondAttribute="trailing" constant="-6" id="n9h-Os-t3V"/>
+                            <constraint firstItem="Rdu-No-oG2" firstAttribute="top" secondItem="erI-kJ-OGn" secondAttribute="top" id="pGM-1u-6ot"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="erI-kJ-OGn" secondAttribute="bottom" id="CeO-O1-5c5"/>
+                <constraint firstAttribute="trailing" secondItem="erI-kJ-OGn" secondAttribute="trailing" constant="3" id="PJN-84-NXA"/>
+                <constraint firstItem="erI-kJ-OGn" firstAttribute="top" secondItem="LaX-in-cei" secondAttribute="top" constant="3" id="VCb-k3-M8d"/>
+                <constraint firstItem="erI-kJ-OGn" firstAttribute="leading" secondItem="LaX-in-cei" secondAttribute="leading" constant="3" id="cNU-jT-Fii"/>
+            </constraints>
+            <size key="customSize" width="199" height="164"/>
+            <connections>
+                <outlet property="descriptionLabel" destination="0MU-Zt-0jd" id="Xny-zT-Qgf"/>
+                <outlet property="imageView" destination="Rdu-No-oG2" id="JEE-M6-lZ4"/>
+                <outlet property="titleLabel" destination="eKd-ad-XPN" id="61s-q5-oei"/>
+            </connections>
+            <point key="canvasLocation" x="711" y="630"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="purpleflowers" width="265" height="400"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="ProximaNovaReg.otf">
+            <string>ProximaNova-Regular</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SDStackViewCell" id="fuV-fD-bqo" customClass="SDBaseCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="114"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="300" height="114"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GNO-jS-Z7Q">
+                        <rect key="frame" x="95" y="5" width="190" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Username" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xOC-sM-lSk" userLabel="User">
+                        <rect key="frame" x="95" y="30" width="195" height="13"/>
+                        <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="13"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dxs-St-oDP">
+                        <rect key="frame" x="5" y="5" width="80" height="95"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flowerfield" translatesAutoresizingMaskIntoConstraints="NO" id="3Ce-2D-SGt">
+                                <rect key="frame" x="0.0" y="0.0" width="80" height="95"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="MBY-mv-dOM"/>
+                                    <constraint firstAttribute="height" constant="95" id="zZR-ph-RPU"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="3Ce-2D-SGt" firstAttribute="leading" secondItem="dxs-St-oDP" secondAttribute="leading" id="0WJ-6z-h3v"/>
+                            <constraint firstItem="3Ce-2D-SGt" firstAttribute="top" secondItem="dxs-St-oDP" secondAttribute="top" id="Aa4-XW-diN"/>
+                            <constraint firstItem="3Ce-2D-SGt" firstAttribute="top" secondItem="dxs-St-oDP" secondAttribute="top" id="SIK-ws-pVn"/>
+                            <constraint firstItem="3Ce-2D-SGt" firstAttribute="leading" secondItem="dxs-St-oDP" secondAttribute="leading" id="SKc-qF-Ytm"/>
+                            <constraint firstAttribute="width" constant="80" id="WzY-DZ-Jjx"/>
+                            <constraint firstAttribute="height" constant="95" id="etc-5f-Yla"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="SIK-ws-pVn"/>
+                                <exclude reference="SKc-qF-Ytm"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DHO-0J-jsS">
+                        <rect key="frame" x="0.0" y="112" width="300" height="1"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.10000000000000001" colorSpace="calibratedRGB"/>
+                        <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.74999999999999978"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="314" id="4RG-bG-Bh4"/>
+                            <constraint firstAttribute="height" constant="1" id="tvK-hO-hnQ"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="4RG-bG-Bh4"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstItem="GNO-jS-Z7Q" firstAttribute="leading" secondItem="fuV-fD-bqo" secondAttribute="leading" constant="60" id="8eB-X2-lIm"/>
+                <constraint firstItem="xOC-sM-lSk" firstAttribute="top" secondItem="GNO-jS-Z7Q" secondAttribute="bottom" constant="5" id="9Ps-Ot-cEd"/>
+                <constraint firstItem="DHO-0J-jsS" firstAttribute="leading" secondItem="fuV-fD-bqo" secondAttribute="leading" id="CcE-9L-7qF"/>
+                <constraint firstItem="GNO-jS-Z7Q" firstAttribute="top" secondItem="fuV-fD-bqo" secondAttribute="top" constant="5" id="DCQ-tL-JkB"/>
+                <constraint firstItem="xOC-sM-lSk" firstAttribute="leading" secondItem="fuV-fD-bqo" secondAttribute="leading" constant="60" id="FHB-ts-sUw"/>
+                <constraint firstItem="xOC-sM-lSk" firstAttribute="leading" secondItem="dxs-St-oDP" secondAttribute="trailing" constant="10" id="KqB-ea-Lfv"/>
+                <constraint firstItem="dxs-St-oDP" firstAttribute="top" secondItem="fuV-fD-bqo" secondAttribute="top" constant="5" id="NmP-EH-EpV"/>
+                <constraint firstItem="xOC-sM-lSk" firstAttribute="leading" secondItem="dxs-St-oDP" secondAttribute="trailing" constant="10" id="P9P-To-T4i"/>
+                <constraint firstAttribute="trailing" secondItem="DHO-0J-jsS" secondAttribute="trailing" id="Rv4-Qi-Zlb"/>
+                <constraint firstItem="GNO-jS-Z7Q" firstAttribute="leading" secondItem="dxs-St-oDP" secondAttribute="trailing" constant="10" id="UbA-nB-pe0"/>
+                <constraint firstItem="DHO-0J-jsS" firstAttribute="leading" secondItem="fuV-fD-bqo" secondAttribute="leading" id="VCG-hc-VmM"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="GNO-jS-Z7Q" secondAttribute="trailing" constant="10" id="X2V-nI-kPV"/>
+                <constraint firstAttribute="trailing" secondItem="GNO-jS-Z7Q" secondAttribute="trailing" constant="15" id="bTs-Qc-msi"/>
+                <constraint firstItem="DHO-0J-jsS" firstAttribute="leading" secondItem="fuV-fD-bqo" secondAttribute="leading" constant="-18" id="lJ0-ev-PRe"/>
+                <constraint firstAttribute="trailing" secondItem="DHO-0J-jsS" secondAttribute="trailing" id="ntv-ex-KqB"/>
+                <constraint firstAttribute="bottom" secondItem="GNO-jS-Z7Q" secondAttribute="bottom" constant="10" id="oSt-Qz-aNm"/>
+                <constraint firstItem="dxs-St-oDP" firstAttribute="leading" secondItem="fuV-fD-bqo" secondAttribute="leading" constant="5" id="p71-HR-bZi"/>
+                <constraint firstAttribute="bottom" secondItem="xOC-sM-lSk" secondAttribute="bottom" constant="10" id="qhT-tS-2Ij"/>
+                <constraint firstItem="dxs-St-oDP" firstAttribute="leading" secondItem="fuV-fD-bqo" secondAttribute="leading" constant="5" id="uXq-8q-Mhz"/>
+                <constraint firstAttribute="bottom" secondItem="DHO-0J-jsS" secondAttribute="bottom" constant="1" id="uY6-9G-GJh"/>
+                <constraint firstItem="DHO-0J-jsS" firstAttribute="top" secondItem="dxs-St-oDP" secondAttribute="bottom" constant="98" id="vUO-CD-EnC"/>
+                <constraint firstAttribute="trailing" secondItem="xOC-sM-lSk" secondAttribute="trailing" constant="10" id="w8e-rB-03R"/>
+            </constraints>
+            <size key="customSize" width="550" height="519"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="p71-HR-bZi"/>
+                    <exclude reference="8eB-X2-lIm"/>
+                    <exclude reference="X2V-nI-kPV"/>
+                    <exclude reference="oSt-Qz-aNm"/>
+                    <exclude reference="FHB-ts-sUw"/>
+                    <exclude reference="P9P-To-T4i"/>
+                    <exclude reference="qhT-tS-2Ij"/>
+                    <exclude reference="Rv4-Qi-Zlb"/>
+                    <exclude reference="VCG-hc-VmM"/>
+                    <exclude reference="lJ0-ev-PRe"/>
+                    <exclude reference="vUO-CD-EnC"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="imageView" destination="3Ce-2D-SGt" id="PAd-cd-FZD"/>
+                <outlet property="titleLabel" destination="GNO-jS-Z7Q" id="Ioo-0F-GX9"/>
+            </connections>
+            <point key="canvasLocation" x="395" y="240.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="flowerfield" width="400" height="266"/>
+    </resources>
+</document>

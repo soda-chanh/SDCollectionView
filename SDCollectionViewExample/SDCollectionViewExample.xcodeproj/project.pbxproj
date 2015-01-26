@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF222C931A7427C0004FD60C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF222C921A7427C0004FD60C /* main.m */; };
+		CF222C961A7427C0004FD60C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF222C951A7427C0004FD60C /* AppDelegate.m */; };
+		CF222C9C1A7427C0004FD60C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF222C9B1A7427C0004FD60C /* MainViewController.m */; };
+		CF222C9F1A7427C0004FD60C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF222C9D1A7427C0004FD60C /* Main.storyboard */; };
+		CF222CA11A7427C0004FD60C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF222CA01A7427C0004FD60C /* Images.xcassets */; };
+		CF222CA41A7427C0004FD60C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF222CA21A7427C0004FD60C /* LaunchScreen.xib */; };
+		CF222CBB1A7427FB004FD60C /* SDLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CF222CBA1A7427FB004FD60C /* SDLayoutManager.m */; };
+		CF222CCC1A742B98004FD60C /* SDLargeCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF222CC01A742B98004FD60C /* SDLargeCellController.m */; };
+		CF222CCD1A742B98004FD60C /* SDLargeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF222CC11A742B98004FD60C /* SDLargeCollectionViewCell.xib */; };
+		CF222CCE1A742B98004FD60C /* SDMediumCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF222CC21A742B98004FD60C /* SDMediumCollectionViewCell.xib */; };
+		CF222CCF1A742B98004FD60C /* SDSmallCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF222CC31A742B98004FD60C /* SDSmallCollectionViewCell.xib */; };
+		CF222CD01A742B98004FD60C /* SDStackCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF222CC51A742B98004FD60C /* SDStackCellController.m */; };
+		CF222CD11A742B98004FD60C /* SDStackViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF222CC61A742B98004FD60C /* SDStackViewCell.xib */; };
+		CF222CD21A742B98004FD60C /* SDFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CF222CC81A742B98004FD60C /* SDFlowLayout.m */; };
+		CF222CD31A742B98004FD60C /* SDLayoutItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CF222CCA1A742B98004FD60C /* SDLayoutItem.m */; };
+		CF222CD81A742CF9004FD60C /* SDMediumCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF222CD51A742CF9004FD60C /* SDMediumCellController.m */; };
+		CF222CD91A742CF9004FD60C /* SDSmallCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF222CD71A742CF9004FD60C /* SDSmallCellController.m */; };
+		CF222CDC1A742D2E004FD60C /* SDBaseCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF222CDB1A742D2E004FD60C /* SDBaseCellController.m */; };
+		CF222CE01A74314B004FD60C /* SDBaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF222CDF1A74314B004FD60C /* SDBaseCollectionViewCell.m */; };
+		CF222CE41A74427B004FD60C /* SDModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CF222CE31A74427B004FD60C /* SDModel.m */; };
+		CF222CEA1A75C346004FD60C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF222CE91A75C346004FD60C /* Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF222CAA1A7427C0004FD60C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF222C851A7427C0004FD60C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF222C8C1A7427C0004FD60C;
+			remoteInfo = SDCollectionViewExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF222C8D1A7427C0004FD60C /* SDCollectionViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDCollectionViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF222C911A7427C0004FD60C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF222C921A7427C0004FD60C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF222C941A7427C0004FD60C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF222C951A7427C0004FD60C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF222C9A1A7427C0004FD60C /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		CF222C9B1A7427C0004FD60C /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		CF222C9E1A7427C0004FD60C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF222CA01A7427C0004FD60C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CF222CA31A7427C0004FD60C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CF222CA91A7427C0004FD60C /* SDCollectionViewExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDCollectionViewExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF222CB91A7427FB004FD60C /* SDLayoutManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDLayoutManager.h; sourceTree = "<group>"; };
+		CF222CBA1A7427FB004FD60C /* SDLayoutManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDLayoutManager.m; sourceTree = "<group>"; };
+		CF222CBF1A742B98004FD60C /* SDLargeCellController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDLargeCellController.h; sourceTree = "<group>"; };
+		CF222CC01A742B98004FD60C /* SDLargeCellController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDLargeCellController.m; sourceTree = "<group>"; };
+		CF222CC11A742B98004FD60C /* SDLargeCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SDLargeCollectionViewCell.xib; sourceTree = "<group>"; };
+		CF222CC21A742B98004FD60C /* SDMediumCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SDMediumCollectionViewCell.xib; sourceTree = "<group>"; };
+		CF222CC31A742B98004FD60C /* SDSmallCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SDSmallCollectionViewCell.xib; sourceTree = "<group>"; };
+		CF222CC41A742B98004FD60C /* SDStackCellController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDStackCellController.h; sourceTree = "<group>"; };
+		CF222CC51A742B98004FD60C /* SDStackCellController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDStackCellController.m; sourceTree = "<group>"; };
+		CF222CC61A742B98004FD60C /* SDStackViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SDStackViewCell.xib; sourceTree = "<group>"; };
+		CF222CC71A742B98004FD60C /* SDFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDFlowLayout.h; sourceTree = "<group>"; };
+		CF222CC81A742B98004FD60C /* SDFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDFlowLayout.m; sourceTree = "<group>"; };
+		CF222CC91A742B98004FD60C /* SDLayoutItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDLayoutItem.h; sourceTree = "<group>"; };
+		CF222CCA1A742B98004FD60C /* SDLayoutItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDLayoutItem.m; sourceTree = "<group>"; };
+		CF222CD41A742CF9004FD60C /* SDMediumCellController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMediumCellController.h; sourceTree = "<group>"; };
+		CF222CD51A742CF9004FD60C /* SDMediumCellController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDMediumCellController.m; sourceTree = "<group>"; };
+		CF222CD61A742CF9004FD60C /* SDSmallCellController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDSmallCellController.h; sourceTree = "<group>"; };
+		CF222CD71A742CF9004FD60C /* SDSmallCellController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDSmallCellController.m; sourceTree = "<group>"; };
+		CF222CDA1A742D2E004FD60C /* SDBaseCellController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDBaseCellController.h; sourceTree = "<group>"; };
+		CF222CDB1A742D2E004FD60C /* SDBaseCellController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDBaseCellController.m; sourceTree = "<group>"; };
+		CF222CDD1A742F36004FD60C /* SDCellControllerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDCellControllerDelegate.h; sourceTree = "<group>"; };
+		CF222CDE1A74314B004FD60C /* SDBaseCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDBaseCollectionViewCell.h; sourceTree = "<group>"; };
+		CF222CDF1A74314B004FD60C /* SDBaseCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDBaseCollectionViewCell.m; sourceTree = "<group>"; };
+		CF222CE21A74427B004FD60C /* SDModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDModel.h; sourceTree = "<group>"; };
+		CF222CE31A74427B004FD60C /* SDModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDModel.m; sourceTree = "<group>"; };
+		CF222CE91A75C346004FD60C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF222C8A1A7427C0004FD60C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF222CA61A7427C0004FD60C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF222C841A7427C0004FD60C = {
+			isa = PBXGroup;
+			children = (
+				CF222C8F1A7427C0004FD60C /* SDCollectionViewExample */,
+				CF222C8E1A7427C0004FD60C /* Products */,
+				CF222CE81A75C346004FD60C /* SDCollectionViewExampleTests */,
+			);
+			sourceTree = "<group>";
+		};
+		CF222C8E1A7427C0004FD60C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF222C8D1A7427C0004FD60C /* SDCollectionViewExample.app */,
+				CF222CA91A7427C0004FD60C /* SDCollectionViewExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF222C8F1A7427C0004FD60C /* SDCollectionViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				CF222C941A7427C0004FD60C /* AppDelegate.h */,
+				CF222C951A7427C0004FD60C /* AppDelegate.m */,
+				CF222CE71A75C14A004FD60C /* Controllers */,
+				CF222CE61A75C143004FD60C /* Model */,
+				CF222CE51A75C128004FD60C /* Views */,
+				CF222CC71A742B98004FD60C /* SDFlowLayout.h */,
+				CF222CC81A742B98004FD60C /* SDFlowLayout.m */,
+				CF222CBC1A7427FE004FD60C /* SDLayoutManager */,
+				CF222C9D1A7427C0004FD60C /* Main.storyboard */,
+				CF222CA01A7427C0004FD60C /* Images.xcassets */,
+				CF222CA21A7427C0004FD60C /* LaunchScreen.xib */,
+				CF222C901A7427C0004FD60C /* Supporting Files */,
+			);
+			path = SDCollectionViewExample;
+			sourceTree = "<group>";
+		};
+		CF222C901A7427C0004FD60C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF222C911A7427C0004FD60C /* Info.plist */,
+				CF222C921A7427C0004FD60C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF222CBC1A7427FE004FD60C /* SDLayoutManager */ = {
+			isa = PBXGroup;
+			children = (
+				CF222CC91A742B98004FD60C /* SDLayoutItem.h */,
+				CF222CCA1A742B98004FD60C /* SDLayoutItem.m */,
+				CF222CB91A7427FB004FD60C /* SDLayoutManager.h */,
+				CF222CBA1A7427FB004FD60C /* SDLayoutManager.m */,
+			);
+			name = SDLayoutManager;
+			sourceTree = "<group>";
+		};
+		CF222CE51A75C128004FD60C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CF222CDE1A74314B004FD60C /* SDBaseCollectionViewCell.h */,
+				CF222CDF1A74314B004FD60C /* SDBaseCollectionViewCell.m */,
+				CF222CC11A742B98004FD60C /* SDLargeCollectionViewCell.xib */,
+				CF222CC21A742B98004FD60C /* SDMediumCollectionViewCell.xib */,
+				CF222CC31A742B98004FD60C /* SDSmallCollectionViewCell.xib */,
+				CF222CC61A742B98004FD60C /* SDStackViewCell.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		CF222CE61A75C143004FD60C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CF222CE21A74427B004FD60C /* SDModel.h */,
+				CF222CE31A74427B004FD60C /* SDModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CF222CE71A75C14A004FD60C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CF222C9A1A7427C0004FD60C /* MainViewController.h */,
+				CF222C9B1A7427C0004FD60C /* MainViewController.m */,
+				CF222CDD1A742F36004FD60C /* SDCellControllerDelegate.h */,
+				CF222CDA1A742D2E004FD60C /* SDBaseCellController.h */,
+				CF222CDB1A742D2E004FD60C /* SDBaseCellController.m */,
+				CF222CD41A742CF9004FD60C /* SDMediumCellController.h */,
+				CF222CD51A742CF9004FD60C /* SDMediumCellController.m */,
+				CF222CD61A742CF9004FD60C /* SDSmallCellController.h */,
+				CF222CD71A742CF9004FD60C /* SDSmallCellController.m */,
+				CF222CBF1A742B98004FD60C /* SDLargeCellController.h */,
+				CF222CC01A742B98004FD60C /* SDLargeCellController.m */,
+				CF222CC41A742B98004FD60C /* SDStackCellController.h */,
+				CF222CC51A742B98004FD60C /* SDStackCellController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		CF222CE81A75C346004FD60C /* SDCollectionViewExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF222CE91A75C346004FD60C /* Info.plist */,
+			);
+			path = SDCollectionViewExampleTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF222C8C1A7427C0004FD60C /* SDCollectionViewExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF222CB31A7427C0004FD60C /* Build configuration list for PBXNativeTarget "SDCollectionViewExample" */;
+			buildPhases = (
+				CF222C891A7427C0004FD60C /* Sources */,
+				CF222C8A1A7427C0004FD60C /* Frameworks */,
+				CF222C8B1A7427C0004FD60C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDCollectionViewExample;
+			productName = SDCollectionViewExample;
+			productReference = CF222C8D1A7427C0004FD60C /* SDCollectionViewExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF222CA81A7427C0004FD60C /* SDCollectionViewExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF222CB61A7427C0004FD60C /* Build configuration list for PBXNativeTarget "SDCollectionViewExampleTests" */;
+			buildPhases = (
+				CF222CA51A7427C0004FD60C /* Sources */,
+				CF222CA61A7427C0004FD60C /* Frameworks */,
+				CF222CA71A7427C0004FD60C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF222CAB1A7427C0004FD60C /* PBXTargetDependency */,
+			);
+			name = SDCollectionViewExampleTests;
+			productName = SDCollectionViewExampleTests;
+			productReference = CF222CA91A7427C0004FD60C /* SDCollectionViewExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF222C851A7427C0004FD60C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Stacey Dao";
+				TargetAttributes = {
+					CF222C8C1A7427C0004FD60C = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					CF222CA81A7427C0004FD60C = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = CF222C8C1A7427C0004FD60C;
+					};
+				};
+			};
+			buildConfigurationList = CF222C881A7427C0004FD60C /* Build configuration list for PBXProject "SDCollectionViewExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF222C841A7427C0004FD60C;
+			productRefGroup = CF222C8E1A7427C0004FD60C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF222C8C1A7427C0004FD60C /* SDCollectionViewExample */,
+				CF222CA81A7427C0004FD60C /* SDCollectionViewExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF222C8B1A7427C0004FD60C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF222CCD1A742B98004FD60C /* SDLargeCollectionViewCell.xib in Resources */,
+				CF222CCF1A742B98004FD60C /* SDSmallCollectionViewCell.xib in Resources */,
+				CF222C9F1A7427C0004FD60C /* Main.storyboard in Resources */,
+				CF222CEA1A75C346004FD60C /* Info.plist in Resources */,
+				CF222CA41A7427C0004FD60C /* LaunchScreen.xib in Resources */,
+				CF222CD11A742B98004FD60C /* SDStackViewCell.xib in Resources */,
+				CF222CA11A7427C0004FD60C /* Images.xcassets in Resources */,
+				CF222CCE1A742B98004FD60C /* SDMediumCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF222CA71A7427C0004FD60C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF222C891A7427C0004FD60C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF222CDC1A742D2E004FD60C /* SDBaseCellController.m in Sources */,
+				CF222CBB1A7427FB004FD60C /* SDLayoutManager.m in Sources */,
+				CF222CD01A742B98004FD60C /* SDStackCellController.m in Sources */,
+				CF222C961A7427C0004FD60C /* AppDelegate.m in Sources */,
+				CF222C9C1A7427C0004FD60C /* MainViewController.m in Sources */,
+				CF222CCC1A742B98004FD60C /* SDLargeCellController.m in Sources */,
+				CF222CD81A742CF9004FD60C /* SDMediumCellController.m in Sources */,
+				CF222CE41A74427B004FD60C /* SDModel.m in Sources */,
+				CF222CE01A74314B004FD60C /* SDBaseCollectionViewCell.m in Sources */,
+				CF222CD31A742B98004FD60C /* SDLayoutItem.m in Sources */,
+				CF222CD91A742CF9004FD60C /* SDSmallCellController.m in Sources */,
+				CF222C931A7427C0004FD60C /* main.m in Sources */,
+				CF222CD21A742B98004FD60C /* SDFlowLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF222CA51A7427C0004FD60C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF222CAB1A7427C0004FD60C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF222C8C1A7427C0004FD60C /* SDCollectionViewExample */;
+			targetProxy = CF222CAA1A7427C0004FD60C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF222C9D1A7427C0004FD60C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF222C9E1A7427C0004FD60C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF222CA21A7427C0004FD60C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF222CA31A7427C0004FD60C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF222CB11A7427C0004FD60C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF222CB21A7427C0004FD60C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF222CB41A7427C0004FD60C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SDCollectionViewExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF222CB51A7427C0004FD60C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SDCollectionViewExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CF222CB71A7427C0004FD60C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SDCollectionViewExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SDCollectionViewExample.app/SDCollectionViewExample";
+			};
+			name = Debug;
+		};
+		CF222CB81A7427C0004FD60C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SDCollectionViewExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SDCollectionViewExample.app/SDCollectionViewExample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF222C881A7427C0004FD60C /* Build configuration list for PBXProject "SDCollectionViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF222CB11A7427C0004FD60C /* Debug */,
+				CF222CB21A7427C0004FD60C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF222CB31A7427C0004FD60C /* Build configuration list for PBXNativeTarget "SDCollectionViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF222CB41A7427C0004FD60C /* Debug */,
+				CF222CB51A7427C0004FD60C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF222CB61A7427C0004FD60C /* Build configuration list for PBXNativeTarget "SDCollectionViewExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF222CB71A7427C0004FD60C /* Debug */,
+				CF222CB81A7427C0004FD60C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF222C851A7427C0004FD60C /* Project object */;
+}
