@@ -20,6 +20,7 @@
     return @"SDStackViewCell";
 }
 
+
 #pragma mark - Private
 
 #pragma mark - UIGestureRecognizerDelegate
