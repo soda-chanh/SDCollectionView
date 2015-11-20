@@ -1,6 +1,8 @@
 # SDCollectionView
 
-An example of a paged collectionView.  Each page is composed of variable sized UICollectionViewCells, creating a beautiful and dynamic layout.  This is especially useful when each cell handles complex logic and therefore must map to a full Controller object of its own.
+An example of a paged collectionView.  Each page is composed of variable sized UICollectionViewCells, creating a beautiful and dynamic layout.  This is especially useful when each cell handles complex logic and therefore must map to a full Controller object of its own.  You can pass the DataSource **any number of elements** in your array, and the SDLayoutManager will calculate the appropriate combination of pages to create an aesthetically pleasing layout.
+
+## Model
 
 I want to display a variety of model objects.  In this case, `SDModel` objects:
 
@@ -10,9 +12,11 @@ I want to display a variety of model objects.  In this case, `SDModel` objects:
 @property (nonatomic, strong) NSString *imageUrl;
 ```
 
+## Controllers for each cell
+
 I create an `SDBaseCellController` for each model to handle its complex logic.  The array of `SDBaseCellControllers` now acts as the dataSource for my UICollectionView.
 
-The `SDBaseCellController` maps to the SDModel and cell.  The controller handles configurable and touches
+The `SDBaseCellController` maps to the SDModel and cell.  The controller handles configurable and touches.
 
 ```
 @property (weak, nonatomic) id<SDCellControllerDelegate> delegate;
@@ -26,9 +30,10 @@ The `SDBaseCellController` maps to the SDModel and cell.  The controller handles
 - (void)didSingleTapCell:(UITapGestureRecognizer *)recognizer;
 ```
 
+## Example
 
 Here I have 3 different layouts: 
-Layout A, Layout B, Layout C.  Each layout is comprised of different cell types. You can pass the DataSource any number of elements in your array, and the SDLayoutManager will calculate the appropriate combination of pages to create an aesthetically pleasing layout.
+Layout A, Layout B, Layout C.  Each layout is comprised of different cell types, and each cell has its own unique features: complex configuration, controller logic, and touch handlers.  Whether I want to display 3, 20, or 500, SDLayoutManager will display a combination of Layouts to fit the data source.
 
 Since each of these cells handles complex logic, each cell
 
